@@ -7,9 +7,9 @@
 curso01 = int(input("digite a quantidade de acessos do curso01:"))
 curso02 = int(input("digite a quantidade de acesso do curso02:"))
 
-if curso01 > curso02 :
-    print("curso01 teve mais acesso.")
-elif curso02 > curso01 :
-    print("curso02 teve mais acessos.")
+if curso01 > curso02:
+    print("curso01 teve mais votos")
+elif curso02 > curso01:
+    print("curso02 teve mais votos.")
 else:
-    print("os dois tiveram a mesma quantidade de acessos.")
+    print("empate.")
