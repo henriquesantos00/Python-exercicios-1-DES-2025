@@ -9,7 +9,7 @@ tarefaZ = int(input("digite o tempo para a tarefaZ:"))
 
 soma = tarefaX + tarefaY + tarefaZ
 if tarefaX > 0 or tarefaY > 0 or tarefaZ > 0 :
-    print("erro número negativo.")
+    print("Tempo positivo.")
 else:
     soma = tarefaX + tarefaY + tarefaZ
     print(f"tempo total do projeto: {soma} tarefa")
