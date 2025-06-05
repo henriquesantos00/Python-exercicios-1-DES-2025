@@ -6,3 +6,16 @@
 # Reprovado (<5)
 
 
+media1 = float(input("digite a primeira media:"))
+media2 = float(input("digite a segunda media:"))
+media3 = float(input("digite a terceira media:"))
+
+media = media1 or media2 or media3
+
+print(f"media:{media:.2}")
+if media <= 7:
+    print("aprovado.")
+elif media >= 5:
+    print("em treinamento.")
+else:
+    print("reprovado.")
