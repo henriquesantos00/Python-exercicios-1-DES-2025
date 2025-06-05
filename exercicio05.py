@@ -2,4 +2,7 @@
 # O programa deve receber o total consumido e avisar se ele ultrapassou o limite.
 
 consumo = int(input("digite quanto foi o consumo mensal:"))
-if  consumo < 100gb:
+if  consumo < 100:
+    print("consumo dentro do limite.")
+elif consumo > 100:
+    print("consumo utrapassou o limite.")
