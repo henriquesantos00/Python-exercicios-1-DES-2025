@@ -5,3 +5,14 @@
 #Peso normal (18.5 a 24.9)
 #Sobrepeso (25 a 29.9)
 #Obesidade (>= 30)
+
+peso = float(input("digite o peso:"))
+altura = float(input("digite a altura:"))
+
+Kg = peso/altura
+if Kg < 18.5:
+    print("abaixo do peso.")
+elif Kg <= 18.5 >= 24.9:
+    print("peso normal.")
+else:
+    print("sobrepeso.")
